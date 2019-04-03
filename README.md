@@ -1,2 +1,1 @@
-# research
-My research regarding some algorithms and ML
+First code: Apply FFT to compute Catalan number in O(nlog^2) by convolution. Probably useless, but it's fun.
