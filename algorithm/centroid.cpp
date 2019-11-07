@@ -1,3 +1,4 @@
+#include "init.h"
 // LAM GIA THUAN - centroid decomposition
 // tested on http://codeforces.com/contest/321/problem/C
 // return a tree with edge i to mom[i], mom[root] = -1
@@ -5,7 +6,7 @@ const int MAX = 200100;
 
 vector<int> G[MAX];
 namespace centroid {
-    vector<int> sz(MAX), mom(MAX);
+    vector<int> sz(MAX, 0), mom(MAX, 0);
     auto &g = G;
 
     int dfs(int i, int s, int p) {

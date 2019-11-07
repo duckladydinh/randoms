@@ -16,9 +16,8 @@
  * 
 */
 
-#include <bits/stdc++.h>
+#include "init.h"
 #include "fft.h"
-using namespace std;
 
 const int N = 1 << 20;
 const int mod = 1e9 + 7;

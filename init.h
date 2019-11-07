@@ -22,4 +22,7 @@ typedef tree<int, null_type, less<>, rb_tree_tag,
 // mp.reserve(1024);
 // s.max_load_factor(0.25);
 
+#define REP(i, n) for(int i = 0; i < n; ++i)
+#define FOR(i, a, b) for(int i = a; i <= b; ++i)
+
 #endif //ALGO_CPP_INIT_H

@@ -1,9 +1,4 @@
-#include <bits/stdc++.h>
-using namespace std;
-
-#define llint long long
-#define REP(i, n) for(int i = 0; i < n; ++i)
-#define FOR(i, a, b) for(int i = a; i <= b; ++i)
+#include "init.h"
 
 namespace FFT {
   const int MAX = 1 << 20;
